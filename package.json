@@ -1,7 +1,14 @@
 {
   "name": "scene-config",
   "version": "1.0.0",
+  "author": "",
   "main": "index.js",
-  "author": "Stephen Kandl <stephen.kandl@rapidrobotics.com>",
-  "license": "Unlicensed"
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8"
+  },
+  "license": "UNLICENSED"
 }

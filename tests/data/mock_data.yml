@@ -1,0 +1,66 @@
+entities:
+  -
+    entityName: 'base'
+    entityId: 'cc9d3cd3-82f9-4128-8fec-02dd72a23356'
+    components:
+      PoseComponent:
+        position: 
+          x: 0
+          y: 0
+          z: 0
+        orientation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      DeviceConfigurationComponent:
+        make: 'Rapid'
+        model: 'unknown'
+        SKU: ''
+        serialNumber: ''
+      SimulationComponent:
+        deviceBundleUrl: ''
+        parentId: ''
+        parentSocket: ~
+
+  -
+    entityName: 'robot'
+    entityId: 'e04326b6-1af0-462f-8c02-f4a0bb63a16b'
+    components:
+      PoseComponent:
+        position: 
+          x: 0
+          y: 0
+          z: 0
+        orientation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      DeviceConfigurationComponent:
+        make: 'Aubo'
+        model: 'AUBO-i5'
+        SKU: '' 
+        serialNumber: ''
+      SimulationComponent:
+        deviceBundleUrl: ''
+        parentId: 'cc9d3cd3-82f9-4128-8fec-02dd72a23356'
+        parentSocket: 'socket_arm'
+
+## placeholders for expansion
+#   -
+#     entityName: 'tableExtension'  
+#     entityId: 'e04331b6-1af0-462f-8c02-f4a0bb63a16b'
+#     components: []
+#   -
+#     entityName: 'robotEOAT'
+#     entityId: 'e04326b6-1af0-462f-8c02-f4a0bb63a16b'
+#     components: []
+#   -
+#     entityName: 'fixture1'
+#     entityId: 'e04326b6-1af0-462f-8c02-f4a0bb63a16b'
+#     components: []
+#  -
+#     entityName: 'fixture2'
+#     entityId: 'e04326b6-1af0-462f-8c02-f4a0bb63a16b'
+#     components: []

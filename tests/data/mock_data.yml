@@ -22,6 +22,7 @@ entities:
         deviceBundleUrl: ''
         parentId: ''
         parentSocket: ~
+        childSocket: ~
 
   -
     entityName: 'robot'
@@ -46,6 +47,7 @@ entities:
         deviceBundleUrl: ''
         parentId: 'cc9d3cd3-82f9-4128-8fec-02dd72a23356'
         parentSocket: 'socket_arm'
+        childSocket: ~
 
 ## placeholders for expansion
 #   -

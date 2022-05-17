@@ -24,4 +24,5 @@ export interface DeviceDescriptionComponent extends Component {
 export interface SimComponent extends Component {
     deviceBundleUrl: string;
     parentSocket: string;
+    childSocket: string;
 }
